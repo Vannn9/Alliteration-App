@@ -1,0 +1,44 @@
+/* Container styles */
+.container {
+    text-align: center;
+    background: linear-gradient(145deg, #2e2e2e, #1c1c1c); /* Lighter grey */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    color: #ff6600; /* Change the heading color to orange */
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ff6600, 0 0 20px #ff6600, 0 0 30px #ff6600, 0 0 40px #ff6600;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #ff6600; /* Orange color for buttons */
+    color: #1c1c1c; /* Darker text for better contrast */
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 0 0 2px #000; /* Softer text shadow */
+  }
+  
+  button:hover {
+    background-color: #e55b00; /* Darker orange for hover state */
+    box-shadow: 0 0 20px #ff6600, 0 0 30px #ff6600, 0 0 40px #ff6600;
+  }
+  
+  /* Button container styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
