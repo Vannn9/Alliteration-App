@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/alliteration-app",
+    "public": "dist/alliteration-frontend",
     "ignore": [
       "firebase.json",
       "**/.*",
